@@ -4,7 +4,7 @@ title:      单机版监控Open-Falcon搭建指南
 subtitle:   使用flannel和ipvs
 date:       2019-07-19
 author:     Baru
-header-img: img/falcon-arch.png
+header-img: img/post-bg-keybord.jpg
 catalog: true
 tags:
     - Linux
@@ -79,7 +79,7 @@ cat /var/log/mysqld.log | grep 'password'
 #连接数据库修改密码
 mysql -uroot -p
 #修改用户密码
-set password for 'root'@'localhost'=password('MYSQLyy324610?');
+set password for 'root'@'localhost'=password('xxxxxxxxxx');
 #刷新权限
 flush privileges;
 ~~~
@@ -126,7 +126,7 @@ tar -xzvf open-falcon-v0.3.tar.gz -C $WORKSPACE
 
 ~~~shell
 cd $WORKSPACE
-grep -Ilr 3306  ./ | xargs -n1 -- sed -i 's/root:/root:MYSQLyy324610?/g'
+grep -Ilr 3306  ./ | xargs -n1 -- sed -i 's/root:/root:xxxxxxxxxx/g'
 ~~~
 
 #### 2.启动
