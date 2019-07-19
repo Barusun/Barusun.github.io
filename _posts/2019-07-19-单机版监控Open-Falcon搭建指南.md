@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      单机版监控Open-Falcon搭建指南
-subtitle:   使用flannel和ipvs
+subtitle:   实现邮件告警
 date:       2019-07-19
 author:     Baru
 header-img: img/post-bg-keybord.jpg
