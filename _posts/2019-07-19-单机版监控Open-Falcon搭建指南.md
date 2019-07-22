@@ -272,7 +272,7 @@ open http://127.0.0.1:8081 in your browser.
 
 ​	该组件也可统一放在`WORKSPACE`目录（/opt/falcon/open-falcon）下
 
-~~~json
+~~~shell
 vim mail-provider/cfg.json
 {
     "debug": true,
