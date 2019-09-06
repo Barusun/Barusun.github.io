@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      OpenFalcon 架构简读
-subtitle:   架构简读
+title:      Linux(Centos7&&Ubuntu)部署指定版本Mysql
+subtitle:   部署Mysql
 date:       2019-09-06
 author:     Baru
 header-img: img/post-bg-desk.jpg
